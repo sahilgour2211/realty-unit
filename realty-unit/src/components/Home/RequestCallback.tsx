@@ -16,6 +16,7 @@ const RequestCallback = () => {
                 display: "flex",
                 flexDirection: "column",
                 gap: "4px",
+                textAlign: { xs: "center", sm: "left" },
               }}
             >
               <Typography

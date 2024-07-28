@@ -31,3 +31,67 @@ export const navItems = [
     path: "/contactUs",
   },
 ];
+
+export const dummy = [
+  {
+    id: "1",
+    name: "Piramal Mahalaxmi",
+    place: "Gurugram, Haryana",
+    price: "35.0 Lacs",
+    size: "2 BHK",
+    type: "Commercial",
+    src: "/images/property1.png",
+  },
+  {
+    id: "2",
+    name: "Piramal Mahalaxmi",
+    place: "Gurugram, Haryana",
+    price: "35.0 Lacs",
+    size: "2 BHK",
+    type: "Residential",
+    src: "/images/property2.png",
+  },
+  {
+    id: "3",
+    name: "Piramal Mahalaxmi",
+    place: "Gurugram, Haryana",
+    price: "35.0 Lacs",
+    size: "2 BHK",
+    type: "Commercial",
+    src: "/images/property3.png",
+  },
+  {
+    id: "4",
+    name: "Piramal Mahalaxmi",
+    place: "Gurugram, Haryana",
+    price: "35.0 Lacs",
+    size: "2 BHK",
+    type: "Residential",
+    src: "/images/property4.png",
+  },
+  {
+    id: "5",
+    name: "Piramal Mahalaxmi",
+    place: "Gurugram, Haryana",
+    price: "35.0 Lacs",
+    size: "2 BHK",
+    type: "Commercial",
+    src: "/images/property5.png",
+  },
+  {
+    id: "6",
+    name: "Piramal Mahalaxmi",
+    place: "Gurugram, Haryana",
+    price: "35.0 Lacs",
+    size: "2 BHK",
+    type: "Residential",
+    src: "/images/property6.png",
+  },
+];
+
+export const propDetailsImages = [
+  "/images/building.jpg",
+  "/images/property6.png",
+  "/images/property5.png",
+  "/images/property1.png",
+];

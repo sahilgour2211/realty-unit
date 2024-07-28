@@ -10,7 +10,7 @@ import PhoneIcon from "@mui/icons-material/Phone";
 
 const Footer = () => {
   return (
-    <Box sx={{ background: "#2e2e38" }}>
+    <Box sx={{ background: "#2e2e38", mt: "24px" }}>
       <Container>
         <Grid
           columnSpacing={"24px"}
