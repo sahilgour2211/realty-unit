@@ -31,6 +31,9 @@ const Header = () => {
         >
           {navItems.map((item) => (
             <Typography
+              onClick={() => {
+                router.push(item.path);
+              }}
               key={item.name}
               sx={{ cursor: "pointer" }}
               color={colors.HEADER}
@@ -128,7 +131,13 @@ const Header = () => {
           flexGrow={1}
         >
           <Box display={"flex"}>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand
+              onClick={() => {
+                router.push("/");
+              }}
+            >
+              <img width={"100px"} src="/images/logo.png" alt="" />
+            </Navbar.Brand>
           </Box>
           <Box
             display={{ xs: "flex", md: "none" }}
@@ -143,6 +152,9 @@ const Header = () => {
           >
             {navItems.map((item) => (
               <Typography
+                onClick={() => {
+                  router.push(item.path);
+                }}
                 key={item.name}
                 sx={{ cursor: "pointer" }}
                 color={colors.HEADER}
