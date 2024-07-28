@@ -1,7 +1,12 @@
 import { Box } from "@mui/material";
+import AllProperties from "@/pages/Properties/AllProperties";
 
 const Properties = () => {
-  return <Box p={3} bgcolor={"red"}></Box>;
+  return (
+    <Box>
+      <AllProperties />
+    </Box>
+  );
 };
 
 export default Properties;

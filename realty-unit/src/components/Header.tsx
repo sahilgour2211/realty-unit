@@ -40,7 +40,6 @@ const Header = () => {
               fontWeight={600}
               fontSize={"18px"}
               borderBottom={item.path === pathname ? "3px solid #FFA800" : ""}
-              onClick={() => router.push(item.path)}
             >
               {item.name}
             </Typography>
@@ -161,7 +160,6 @@ const Header = () => {
                 fontWeight={600}
                 fontSize={"18px"}
                 borderBottom={item.path === pathname ? "3px solid #FFA800" : ""}
-                onClick={() => router.push(item.path)}
               >
                 {item.name}
               </Typography>

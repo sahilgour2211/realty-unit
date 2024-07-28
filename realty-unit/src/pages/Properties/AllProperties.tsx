@@ -4,7 +4,7 @@ import Section3 from "@/components/Properties/Section3";
 import { Box } from "@mui/material";
 import React from "react";
 
-const Properties = () => {
+const AllProperties = () => {
   return (
     <Box>
       <Hero />
@@ -14,4 +14,4 @@ const Properties = () => {
   );
 };
 
-export default Properties;
+export default AllProperties;
