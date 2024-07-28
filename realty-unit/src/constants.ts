@@ -20,7 +20,7 @@ export const navItems = [
   },
   {
     name: "Properties",
-    path: "/properties",
+    path: "/allProperties",
   },
   {
     name: "About Us",
