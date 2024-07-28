@@ -9,12 +9,13 @@ import {
   Drawer,
   Typography,
 } from "@mui/material";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { Navbar } from "react-bootstrap";
 
 const Header = () => {
   const pathname = usePathname();
+  const router = useRouter();
   const [mobile, setMobile] = useState(false);
 
   const DrawerComponent = () => {
@@ -36,6 +37,7 @@ const Header = () => {
               fontWeight={600}
               fontSize={"18px"}
               borderBottom={item.path === pathname ? "3px solid #FFA800" : ""}
+              onClick={() => router.push(item.path)}
             >
               {item.name}
             </Typography>
@@ -147,6 +149,7 @@ const Header = () => {
                 fontWeight={600}
                 fontSize={"18px"}
                 borderBottom={item.path === pathname ? "3px solid #FFA800" : ""}
+                onClick={() => router.push(item.path)}
               >
                 {item.name}
               </Typography>
