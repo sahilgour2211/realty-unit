@@ -1,3 +1,4 @@
+"use client";
 import Hero from "@/components/Properties/Hero";
 import Section2 from "@/components/Properties/Section2";
 import Section3 from "@/components/Properties/Section3";
